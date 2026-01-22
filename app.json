@@ -1,29 +1,34 @@
 {
   "expo": {
-    "name": "FlowTask",
-    "slug": "FlowTask",
+    "name": "#FIX JIRA",
+    "slug": "fix-jira",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "backgroundColor": "#0F172A",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0F172A"
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.kartikey004.fixjira",
+      "supportsTablet": true,
+      "userInterfaceStyle": "automatic"
     },
     "android": {
+      "package": "com.kartikey004.fixjira",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0F172A"
       },
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     }
   }
 }
