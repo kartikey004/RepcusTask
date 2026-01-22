@@ -4,7 +4,7 @@
 ## Why I built this
 I use Jira a lot and while it is a great tool, creating a ticket is a **boring chore**. You have to click through multiple fields, open dropdowns and fill out forms one by one. This breaks my focus and wastes time.
 
-I built **#FIX JIRA** to solve this friction. Instead of filling out forms, you can create a structured ticket just by typing one line.
+This feature update is built to remove that friction. Instead of filling out forms, you can create a structured ticket just by typing one line.
 
 ---
 
